@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="navbar" aria-label="Điều hướng chính">
+    <a class="logo" href="#home">MyWebsite</a>
+    <button class="menu-icon" type="button" aria-label="Mở menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Trang chủ</a></li>
+      <li><a href="#about">Giới thiệu</a></li>
+      <li><a href="#services">Dịch vụ</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+  </nav>
+  <main id="home">
+    <h1>Thanh điều hướng responsive</h1>
+    <p>Trên máy tính menu hiển thị ngang; trên điện thoại nhấn ☰ để mở hoặc đóng menu.</p>
+    <section id="about"><h2>Giới thiệu</h2><p>Menu mẫu sử dụng Flexbox, media query và JavaScript.</p></section>
+    <section id="services"><h2>Dịch vụ</h2></section>
+    <section id="contact"><h2>Liên hệ</h2></section>
+  </main>
+</body>
+</html>

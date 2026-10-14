@@ -1,0 +1,6 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 32px 20px; background: #f3f6fa; color: #24364b; font: 16px Arial, sans-serif; }
+main { max-width: 680px; margin: 8vh auto; padding: 28px; border-radius: 12px; background: white; box-shadow: 0 10px 30px #20334b14; }
+h1 { margin-top: 0; }
+li { margin: 16px 0; }
+a { color: #315fbd; }
